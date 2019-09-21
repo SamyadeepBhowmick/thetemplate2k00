@@ -1,0 +1,29 @@
+body{
+    background-color: #c5f5f6;
+}
+.jumbotron{
+    background-color: oldlace;
+    border-color: blue;
+}
+.btn-primary{
+    //background-color: red;
+}
+.btn-outline-primary{
+    //color: red;
+    //border-color: red;
+}
+.card{
+    background-color: oldlace;
+    //border-color: blue;
+
+}
+.card-header{
+    background-color: black;
+}
+.card-body{
+    //background-color: black;
+}
+
+.card-footer{
+    background-color: #1b3d96;
+}
