@@ -73,8 +73,8 @@
 			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
 			<hr class="my-4">
 			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-			<button type="button" class="btn btn-outline-primary btn-lg">Register</button>
-			<button type="button" class="btn btn-outline-primary btn-lg">Login</button>
+			<a href="register.php" class="btn btn-outline-primary btn-lg">Register</a>
+			<a href="login.php" class="btn btn-outline-primary btn-lg">Login</a>
 		</div>
 
 		
@@ -98,7 +98,7 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 1</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="register.php" class="btn btn-primary">Details</a>
+						<a href="#" class="btn btn-primary">Details</a>
 					</div>
 				</div>
 

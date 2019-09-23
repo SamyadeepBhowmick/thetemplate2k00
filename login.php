@@ -47,19 +47,11 @@
 
         <div class="d-flex flex-column bd-highlight mb-3">
             <div class="p-5 bd-highlight">
-				<p class="text-center"><h1>Registration Form</h1></p>
+				<p class="text-center"><h1>Login Form</h1></p>
 				<div class="p-2 bd-highlight">
 					
 				</div>
                 <form>
-                    <div class="form-group">
-                        <label for="exampleInputName">Name</label>
-                        <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputCollege">College</label>
-                        <input type="text" class="form-control" id="exampleInputCollege" placeholder="Enter college">
-                    </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -68,10 +60,6 @@
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Confirm Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
