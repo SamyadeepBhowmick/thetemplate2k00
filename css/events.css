@@ -19,14 +19,14 @@ body{
 
 }
 .card-header{
-    background-color: #3EA2B8;
+    background-color: black;
 }
 .card-body{
-    background-color: #3EA2B8;
+    //background-color: black;
 }
 
 .card-footer{
-    background-color: #3EA2B8;
+    background-color: #1b3d96;
 }
 .card-img-top{
     border-top-right-radius: 25px;

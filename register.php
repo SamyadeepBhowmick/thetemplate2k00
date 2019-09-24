@@ -11,7 +11,7 @@
 
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
 			<a class="navbar-brand" href="welcome.php">TheTemplate2k00</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -59,6 +59,10 @@
                     <div class="form-group">
                         <label for="exampleInputCollege">College</label>
                         <input type="text" class="form-control" id="exampleInputCollege" placeholder="Enter college">
+					</div>
+					<div class="form-group">
+                        <label for="exampleInputContact">Contact</label>
+                        <input type="text" class="form-control" id="exampleInputContact" placeholder="Enter contact number">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
@@ -73,7 +77,7 @@
                         <label for="exampleInputPassword1">Confirm Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Register</button>
                 </form>
             </div>
         </div>

@@ -11,7 +11,7 @@
 
 
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-info">
 			<a class="navbar-brand" href="welcome.php">TheTemplate2k00</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
 					<a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Link</a>
+					<a class="nav-link" href="events.php">Events</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -82,161 +82,9 @@
 
 
 
-		<h1 class="text-center"><b>EVENTS:</b></h1>
+		
 
 
-
-
-		<div class="d-lg-flex flex-row bd-highlight">
-			<div class="p-4 bd-highlight">
-				
-			</div>
-			<div class="p-3 bd-highlight">
-			
-				<div class="card">
-					<img src="img/abc.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">EVENT 1</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-
-			</div>
-			<div class="p-5 bd-highlight">
-				
-			</div>
-			<div class="p-3 bd-highlight">
-			
-				<div class="card">
-					<img src="img/abc.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">EVENT 2</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-			
-			</div>
-			<div class="p-4 bd-highlight">
-				
-			</div>
-		</div>
-
-
-
-		<div class="d-lg-flex flex-row bd-highlight">
-			<div class="p-4 bd-highlight">
-				
-			</div>
-			<div class="p-3 bd-highlight">
-			
-				<div class="card">
-					<img src="img/abc.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">EVENT 3</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-
-			</div>
-			<div class="p-5 bd-highlight">
-				
-			</div>
-			<div class="p-3 bd-highlight">
-			
-				<div class="card">
-					<img src="img/abc.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">EVENT 4</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-
-			</div>
-			<div class="p-4 bd-highlight">
-				
-			</div>
-		</div>
-
-
-
-		<div class="d-lg-flex flex-row bd-highlight">
-			<div class="p-4 bd-highlight">
-				
-			</div>
-			<div class="p-3 bd-highlight">
-			
-				<div class="card">
-					<img src="img/abc.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">EVENT 5</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-
-			</div>
-			<div class="p-5 bd-highlight">
-				
-			</div>
-			<div class="p-3 bd-highlight">
-			
-				<div class="card">
-					<img src="img/abc.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">EVENT 6</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-
-			</div>
-			<div class="p-4 bd-highlight">
-				
-			</div>
-		</div>
-
-
-
-		<div class="d-lg-flex flex-row bd-highlight">
-			<div class="p-4 bd-highlight">
-				
-			</div>
-			<div class="p-3 bd-highlight">
-			
-				<div class="card">
-					<img src="img/abc.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">EVENT 7</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-
-			</div>
-			<div class="p-5 bd-highlight">
-				
-			</div>
-			<div class="p-3 bd-highlight">
-			
-				<div class="card">
-					<img src="img/abc.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">EVENT 8</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
-					</div>
-				</div>
-
-			
-			</div>
-			<div class="p-4 bd-highlight">
-				
-			</div>
-		</div>
 
 
 
@@ -245,13 +93,21 @@
 			<div class="card-header text-center">
 				Featured
 			</div>
-			<div class="card-body text-center text-muted">
-				<h5 class="card-title">Special title treatment</h5>
-				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-				<a href="#" class="btn btn-primary">Details</a>
+			<div class="card-body text-center">
+				<h3 class="card-title">Contact Us</h3>
 			</div>
 			<div class="card-footer text-muted text-center">
-				2 days ago
+				<a href="#">
+					<img src="img/facebook.png" alt="..." style="width:50px;height:50px;border-radius:100%;">
+				</a>
+				<a href="#">
+					<img src="img/whatsapp.png" alt="..." style="width:50px;height:50px;border-radius:100%;">
+				</a>
+				<a href="#">
+					<img src="img/instagram.png" alt="..." style="width:50px;height:50px;border-radius:100%;">
+				</a>
+				
+				
 			</div>
 		
 
