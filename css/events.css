@@ -1,5 +1,6 @@
 body{
     background-color: #c5f5f6;
+    
 }
 .jumbotron{
     background-color: #E9ECEF;
@@ -26,7 +27,7 @@ body{
 }
 
 .card-footer{
-    background-color: #1b3d96;
+    background-color: lightpink;
 }
 .card-img-top{
     border-top-right-radius: 25px;

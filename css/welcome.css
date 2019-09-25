@@ -26,9 +26,26 @@ body{
 }
 
 .card-footer{
-    background-color: #3EA2B8;
+    background-color: black;
 }
 .card-img-top{
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
+.navbar-brand{
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="navbar-brand"] {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+  }
