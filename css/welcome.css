@@ -44,8 +44,22 @@ body{
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="navbar-brand"] {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
     }
   }
+
+  .map-container-3{
+    overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height:0;
+    }
+    .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
