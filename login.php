@@ -25,6 +25,9 @@
 					<li class="nav-item active lead">
 						<a class="nav-link" href="events.php">Events</a>
 					</li>
+					<li class="nav-item active">
+						<a class="nav-link lead" href="events.php">Gallery</a>
+					</li>
 					<li class="nav-item active lead">
 						<a class="nav-link" href="events.php">Results</a>
 					</li>

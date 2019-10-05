@@ -22,6 +22,9 @@
 					<li class="nav-item active">
 						<a class="nav-link lead" href="events.php">About</a>
 					</li>
+					<li class="nav-item active">
+						<a class="nav-link lead" href="events.php">Gallery</a>
+					</li>
 					<li class="nav-item active lead">
 						<a class="nav-link" href="events.php">Events</a>
 					</li>
@@ -74,7 +77,7 @@
 
 		
 
-		
+	
 
 		<div class="bd-highlight" style="padding:10% 10% 10% 10%;">
 			
@@ -91,19 +94,44 @@
 		
 
 
+		<div class="bd-highlight text-white" style="background-color: black;">
+			<div class="d-flex flex-row bd-highlight  mb-3">
+				<div class="p-4 bd-highlight flex-fill">
 
 
+					<div class="d-flex flex-column bd-highlight" style="text-align: center;">
+						<div class="p-2 bd-highlight" ><h2>Contact Us</h2></div>
+						<div class="p-2 bd-highlight" >+91 90909 09090</div>
+						<div class="p-2 bd-highlight" >+91 09090 90909</div>
+						<div class="p-2 bd-highlight" >+91 19191 91919</div>
+					</div>
 
+
+				</div>
+				<div class="p-4 bd-highlight flex-fill">
+
+					<div class="d-flex flex-column bd-highlight">
+						<div class="p-2 bd-highlight" style="margin-left: 20%;"><h2>Feedback</h2></div>
+						<form action="/action_page.php">
+							<div class="input-group mb-3">
+								<input type="text" class="form-control " placeholder="Your Email" id="mail" name="email">
+							</div>
+							<div class="input-group">
+								<textarea class="form-control" aria-label="With textarea" placeholder="Write anything to us"></textarea>
+							</div>
+							<div class="pt-3">
+							<button type="submit" class="btn btn-outline-primary btn-md" style="margin-left: 20%;">Submit</button>
+							</div>
+						</form>
+					</div>
+
+				</div>
+			</div>
+			
 
 		
-			<div class="card-header text-center">
-				Featured
-			</div>
-			<div class="card-body text-center">
-				<h3 class="card-title">Contact Us</h3>
-			</div>
 			<div class="card-footer" style="text-align: center;">
-				<div><h5 class="text-white">Connect With Us</h5></div>
+				<div><h5>Connect With Us</h5></div>
 				<a href="#">
 					<img src="img/facebook.png" alt="..." style="width:40px;height:40px;border-radius:100%;">
 				</a>
@@ -117,6 +145,15 @@
 					<img src="img/youtube.png" alt="..." style="width:40px;height:40px;border-radius:100%;">
 				</a>
 			</div>
+				
+
+		</div>
+
+
+
+
+		
+			
 		
 
 
