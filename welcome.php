@@ -101,16 +101,20 @@
 
 					<div class="d-flex flex-column bd-highlight" style="text-align: center;">
 						<div class="p-2 bd-highlight" ><h2>Contact Us</h2></div>
+						<div class="p-2 bd-highlight" >
+
+						<img src="img/gmail.png" alt="..." style="width:30px;height:30px;">  samyadeep98b@gmail.com
+						
+						</div>
 						<div class="p-2 bd-highlight" >+91 90909 09090</div>
 						<div class="p-2 bd-highlight" >+91 09090 90909</div>
-						<div class="p-2 bd-highlight" >+91 19191 91919</div>
 					</div>
 
 
 				</div>
 				<div class="p-4 bd-highlight flex-fill">
 
-					<div class="d-flex flex-column bd-highlight">
+					<div class="d-flex flex-column bd-highlight ">
 						<div class="p-2 bd-highlight" style="margin-left: 20%;"><h2>Feedback</h2></div>
 						<form action="/action_page.php">
 							<div class="input-group mb-3">
@@ -133,16 +137,16 @@
 			<div class="card-footer" style="text-align: center;">
 				<div><h5>Connect With Us</h5></div>
 				<a href="#">
-					<img src="img/facebook.png" alt="..." style="width:40px;height:40px;border-radius:100%;">
+					<img src="img/facebook.png" alt="..." style="width:40px;height:40px;border-radius:100%;margin: 10px;">
 				</a>
 				<a href="#">
-					<img src="img/whatsapp.png" alt="..." style="width:40px;height:40px;border-radius:100%;">
+					<img src="img/whatsapp.png" alt="..." style="width:40px;height:40px;border-radius:100%;margin: 10px;">
 				</a>
 				<a href="#">
-					<img src="img/instagram.png" alt="..." style="width:40px;height:40px;border-radius:100%;">
+					<img src="img/instagram.png" alt="..." style="width:40px;height:40px;border-radius:100%;margin: 10px;">
 				</a>
 				<a href="#">
-					<img src="img/youtube.png" alt="..." style="width:40px;height:40px;border-radius:100%;">
+					<img src="img/youtube.png" alt="..." style="width:40px;height:40px;border-radius:100%;margin: 10px;">
 				</a>
 			</div>
 				

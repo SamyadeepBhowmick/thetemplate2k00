@@ -43,7 +43,7 @@
 
 
         <div class="d-flex flex-column bd-highlight mb-3">
-            <div class="p-5 bd-highlight">
+            <div class="p-5 bd-highlight fit-to-screen">
 				<p class="text-center"><h1>Registration Form</h1></p>
 				<div class="p-2 bd-highlight">
 					
@@ -78,6 +78,73 @@
                 </form>
             </div>
         </div>
+
+
+
+
+
+
+
+
+		<div class="bd-highlight text-white" style="background-color: black;">
+			<div class="d-flex flex-row bd-highlight  mb-3">
+				<div class="p-4 bd-highlight flex-fill">
+
+
+					<div class="d-flex flex-column bd-highlight" style="text-align: center;">
+						<div class="p-2 bd-highlight" ><h2>Contact Us</h2></div>
+						<div class="p-2 bd-highlight" >
+
+						<img src="img/gmail.png" alt="..." style="width:30px;height:30px;">  samyadeep98b@gmail.com
+						
+						</div>
+						<div class="p-2 bd-highlight" >+91 90909 09090</div>
+						<div class="p-2 bd-highlight" >+91 09090 90909</div>
+					</div>
+
+
+				</div>
+				<div class="p-4 bd-highlight flex-fill">
+
+					<div class="d-flex flex-column bd-highlight ">
+						<div class="p-2 bd-highlight" style="margin-left: 20%;"><h2>Feedback</h2></div>
+						<form action="/action_page.php">
+							<div class="input-group mb-3">
+								<input type="text" class="form-control " placeholder="Your Email" id="mail" name="email">
+							</div>
+							<div class="input-group">
+								<textarea class="form-control" aria-label="With textarea" placeholder="Write anything to us"></textarea>
+							</div>
+							<div class="pt-3">
+							<button type="submit" class="btn btn-outline-primary btn-md" style="margin-left: 20%;">Submit</button>
+							</div>
+						</form>
+					</div>
+
+				</div>
+			</div>
+			
+
+		
+			<div class="card-footer" style="text-align: center;">
+				<div><h5>Connect With Us</h5></div>
+				<a href="#">
+					<img src="img/facebook.png" alt="..." style="width:40px;height:40px;border-radius:100%;margin: 10px;">
+				</a>
+				<a href="#">
+					<img src="img/whatsapp.png" alt="..." style="width:40px;height:40px;border-radius:100%;margin: 10px;">
+				</a>
+				<a href="#">
+					<img src="img/instagram.png" alt="..." style="width:40px;height:40px;border-radius:100%;margin: 10px;">
+				</a>
+				<a href="#">
+					<img src="img/youtube.png" alt="..." style="width:40px;height:40px;border-radius:100%;margin: 10px;">
+				</a>
+			</div>
+				
+
+		</div>
+
 
 
 

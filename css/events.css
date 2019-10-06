@@ -26,9 +26,7 @@ body{
     //background-color: black;
 }
 
-.card-footer{
-    background-color: lightpink;
-}
+
 .card-img-top{
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -43,6 +41,13 @@ body{
     font-family: 'Times New Roman', Times, serif;
 
 }
+
+.input-group{
+    width: 70%;
+    margin-left: 20%;
+    
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="navbar-brand"] {
