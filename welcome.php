@@ -11,6 +11,7 @@
 
 
 
+		<div>
 		<nav class="navbar navbar-expand-lg navbar-light text-center" style="text-align: center;background-color: #F8F8F8;">
 			<a class="navbar-brand" href="welcome.php">TheTemplate2k00</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +41,7 @@
 				</ul>
 			</div>
 		</nav>
-
+		</div>
 
 
 		
