@@ -24,3 +24,10 @@ CREATE TABLE event1(
     FOREIGN KEY(email_1) REFERENCES users(email),
     FOREIGN KEY(email_2) REFERENCES users(email)
 );
+
+CREATE TABLE feedbacks(
+    feedback_id INT NOT NULL AUTO_INCREMENT,
+    email VARCHAR(255) NOT NULL,
+    feed VARCHAR(255) NOT NULL,
+    PRIMARY KEY(feedback_id)
+);
