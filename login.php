@@ -92,12 +92,12 @@
 
 					<div class="d-flex flex-column bd-highlight ">
 						<div class="p-2 bd-highlight" style="margin-left: 20%;"><h2>Feedback</h2></div>
-						<form action="/action_page.php">
+						<form id="feedback_form" method="post" action="feedback_submit.php">
 							<div class="input-group mb-3">
-								<input type="text" class="form-control " placeholder="Your Email" id="mail">
+								<input type="text" class="form-control " placeholder="Your Email" id="mail" name="femail">
 							</div>
 							<div class="input-group">
-								<textarea class="form-control" aria-label="With textarea" placeholder="Write anything to us"></textarea>
+								<textarea class="form-control" aria-label="With textarea" placeholder="Write anything to us" name="ftext"></textarea>
 							</div>
 							<div class="pt-3">
 							<button type="submit" class="btn btn-outline-primary btn-md" style="margin-left: 20%;">Submit</button>
