@@ -225,12 +225,12 @@
 
 					<div class="d-flex flex-column bd-highlight ">
 						<div class="p-2 bd-highlight" style="margin-left: 20%;"><h2>Feedback</h2></div>
-						<form action="/action_page.php">
+						<form id="feedback_form" method="post" action="feedback_submit.php">
 							<div class="input-group mb-3">
-								<input type="text" class="form-control " placeholder="Your Email" id="mail" name="email">
+								<input type="text" class="form-control " placeholder="Your Email" id="mail" name="femail">
 							</div>
 							<div class="input-group">
-								<textarea class="form-control" aria-label="With textarea" placeholder="Write anything to us"></textarea>
+								<textarea class="form-control" aria-label="With textarea" placeholder="Write anything to us" name="ftext"></textarea>
 							</div>
 							<div class="pt-3">
 							<button type="submit" class="btn btn-outline-primary btn-md" style="margin-left: 20%;">Submit</button>
@@ -277,5 +277,7 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/events.js"></script>
 	</body>
 </html>
