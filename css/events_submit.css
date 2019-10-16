@@ -1,0 +1,25 @@
+
+
+body{
+    background-color: lightblue;
+}
+div{
+    text-justify: auto;
+    text-align: center;
+    font-style: italic;
+    word-break: break-all;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+#abc{
+    margin: 5%;
+    border: 1px solid red;
+    font-style: normal;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: white;
+}
