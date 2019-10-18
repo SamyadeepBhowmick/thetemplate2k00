@@ -1,4 +1,8 @@
 <?php
+session_start();
+?>
+
+<?php
     $hostname="localhost";
     $username="root";
     $db_password="123samya";
@@ -13,7 +17,9 @@
         exit();
     }
 
-    $sql = "SELECT * FROM event WHERE event_id=1";
+    $id=$_POST['button'];
+
+    $sql = "SELECT * FROM event WHERE event_id=$id";
     $result = mysqli_query($conn, $sql);
         if (!$result) {
             die("Error: " . $sql . "<br>" . mysqli_error($conn));
@@ -30,9 +36,9 @@
             $event_contact2= $row['event_contact2'];
         }  	
 
-
     mysqli_close($conn);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -92,7 +98,12 @@
                 </p>
             </div>
 
+            <a href="eventform.php<?php $_SESSION["eventid"] = $id;?>" class="btn btn-outline-primary btn-lg">Register</a>
+
+            
+
         </div>
+
 
 
 

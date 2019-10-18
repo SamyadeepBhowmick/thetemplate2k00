@@ -56,7 +56,10 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 1</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="events_submit.php" class="btn btn-primary">Details</a>
+						
+						<form action="events_submit.php" method="post">
+							<button name="button" class="btn btn-outline-primary" type="submit" value="1">Details</button>
+						</form>
 					</div>
 				</div>
 
@@ -71,7 +74,9 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 2</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
+						<form action="events_submit.php" method="post">
+							<button name="button" class="btn btn-outline-primary" type="submit" value="2">Details</button>
+						</form>
 					</div>
 				</div>
 			
@@ -94,7 +99,9 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 3</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
+						<form action="events_submit.php" method="post">
+							<button name="button" class="btn btn-outline-primary" type="submit" value="3">Details</button>
+						</form>
 					</div>
 				</div>
 
@@ -109,7 +116,9 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 4</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
+						<form action="events_submit.php" method="post">
+							<button name="button" class="btn btn-outline-primary" type="submit" value="4">Details</button>
+						</form>
 					</div>
 				</div>
 
@@ -132,7 +141,9 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 5</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
+						<form action="events_submit.php" method="post">
+							<button name="button" class="btn btn-outline-primary" type="submit" value="5">Details</button>
+						</form>
 					</div>
 				</div>
 
@@ -147,7 +158,9 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 6</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
+						<form action="events_submit.php" method="post">
+							<button name="button" class="btn btn-outline-primary" type="submit" value="6">Details</button>
+						</form>
 					</div>
 				</div>
 
@@ -170,7 +183,9 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 7</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
+						<form action="events_submit.php" method="post">
+							<button name="button" class="btn btn-outline-primary" type="submit" value="7">Details</button>
+						</form>
 					</div>
 				</div>
 
@@ -185,7 +200,9 @@
 					<div class="card-body">
 						<h5 class="card-title">EVENT 8</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Details</a>
+						<form action="events_submit.php" method="post">
+							<button name="button" class="btn btn-outline-primary" type="submit" value="8">Details</button>
+						</form>
 					</div>
 				</div>
 
