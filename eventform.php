@@ -48,10 +48,43 @@ session_start();
 
 
 
+		<?php 
+			$str="event";
+			$finalstr=$str.$_SESSION["eventid"];
+			echo $finalstr;
+		?>
 
 
-		<?php echo $_SESSION["eventid"];?>
 
+
+		<div class="d-flex flex-column bd-highlight mb-3">
+            <div class="p-5 bd-highlight fit-to-screen">
+				<p class="text-center"><h1>Event Registration Form</h1></p>
+				<div class="p-2 bd-highlight">
+					
+				</div>
+                <form id="register_form" method="post" action="eventform_submit.php">
+                    <div class="form-group">
+                        <label for="exampleInputName">Team Name</label>
+                        <input type="text" class="form-control" id="exampleInputName" placeholder="Enter team name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Member 1 Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email1">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+					<div class="form-group">
+                        <label for="exampleInputEmail1">Member 2 Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email2">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary" value="Create Account">Register</button>
+                </form>
+            </div>
+        </div>
+
+
+		
 
 
 
@@ -138,7 +171,7 @@ session_start();
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-		<script type="text/javascript" src="js/register.js"></script>
+		<!--<script type="text/javascript" src="js/register.js"></script>-->
 
 	</body>
 </html>
