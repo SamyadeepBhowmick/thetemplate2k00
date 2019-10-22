@@ -1,5 +1,33 @@
 <?php
 session_start();
+
+
+	$str="event";
+	$email="email";
+	$id=$_SESSION["eventid"];
+	$finalstr=$str.$_SESSION["eventid"];
+	$c=1;
+	
+
+	$hostname="localhost";
+    $username="root";
+    $db_password="123samya";
+    $db_name="thetemplate";
+    
+    $conn = mysqli_connect($hostname, $username, $db_password, $db_name);
+                if (!$conn) {
+                    die("Connection failed: " . mysqli_connect_error());
+                }
+                $sql = "SELECT event_nu FROM event WHERE event_id=$id";
+                $result = mysqli_query($conn, $sql);
+                if (!$result) {
+                    die("Error: " . $sql . "<br>" . mysqli_error($conn));
+                }
+				$row = mysqli_fetch_array($result);
+				$c1=$row["event_nu"];
+				mysqli_close($conn);
+
+
 ?>
 
 <!DOCTYPE html>
@@ -48,18 +76,14 @@ session_start();
 
 
 
-		<?php 
-			$str="event";
-			$finalstr=$str.$_SESSION["eventid"];
-			echo $finalstr;
-		?>
+		
 
 
 
 
 		<div class="d-flex flex-column bd-highlight mb-3">
             <div class="p-5 bd-highlight fit-to-screen">
-				<p class="text-center"><h1>Event Registration Form</h1></p>
+				<p class="text-center"><h1>Event<?php echo $id ?> Registration Form</h1></p>
 				<div class="p-2 bd-highlight">
 					
 				</div>
@@ -68,16 +92,18 @@ session_start();
                         <label for="exampleInputName">Team Name</label>
                         <input type="text" class="form-control" id="exampleInputName" placeholder="Enter team name" name="name">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Member 1 Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email1">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
+					<?php while($c<=$c1){ ?>
+
 					<div class="form-group">
-                        <label for="exampleInputEmail1">Member 2 Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email2">
+                        <label for="exampleInputEmail1">Member<?php echo $c ?> Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="<?php echo $email.$c ?>">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
+					</div>
+					<?php
+						++$c;
+					}
+					?>
+
                     <button type="submit" class="btn btn-primary" value="Create Account">Register</button>
                 </form>
             </div>
@@ -88,7 +114,10 @@ session_start();
 
 
 
-
+		<?php 
+			$_SESSION['blocks']=$c1;
+			
+			?>
 
 
 

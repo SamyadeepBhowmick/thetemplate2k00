@@ -1,4 +1,10 @@
 <?php
+
+    session_start();
+    $id=$_SESSION["eventid"];
+    $block=$_SESSION["blocks"];
+
+
     $hostname="localhost";
     $username="root";
     $db_password="123samya";
