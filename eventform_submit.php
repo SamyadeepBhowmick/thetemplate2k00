@@ -45,6 +45,13 @@
         echo json_encode($response);
         exit();
     }
+ 
+    $_SESSION['email1']=$email1;
+    $_SESSION['email2']=$email2;
+    $_SESSION['email3']=$email3;
+    $_SESSION['email4']=$email4;
+
+
     $response['success'] = true;
     $response['message'] = "Registration successful";
     echo json_encode($response);

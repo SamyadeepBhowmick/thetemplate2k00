@@ -28,7 +28,7 @@ var registration_success = function (data) {
 
     if (data.success) {
         alert(data.message);
-        window.location.href = "welcome.php";
+        window.location.href = "email.php";
     } else {
         alert(data.message);
     }
