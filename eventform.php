@@ -85,7 +85,7 @@ session_start();
             <div class="p-5 bd-highlight fit-to-screen">
 				<p class="text-center"><h1>Event<?php echo $id ?> Registration Form</h1></p>
 				<div class="p-2 bd-highlight">
-					
+				<small id="emailHelp" class="form-text text-muted" style="font-size: 20px;">First email should be that of team leader</small>
 				</div>
                 <form id="register_form" method="post" action="eventform_submit.php">
                     <div class="form-group">

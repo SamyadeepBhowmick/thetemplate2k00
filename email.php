@@ -1,10 +1,10 @@
 <?php
 
-    //session_start();
-    //$email1=$_SESSION['email1'];
-    //$email2=$_SESSION['email2'];
-    //$email3=$_SESSION['email3'];
-    //$email4=$_SESSION['email4'];
+session_start();
+$email1=$_SESSION['email1'];
+$email2=$_SESSION['email2'];
+$email3=$_SESSION['email3'];
+$email4=$_SESSION['email4'];
 
 
 
@@ -17,10 +17,10 @@ $mail->SMTPAuth=true;
 $mail->SMTPSecure='tls';
 
 $mail->Username='samyadeep98b@gmail.com';
-$mail->Password='hello';
+$mail->Password='******';
 
 $mail->setFrom('samyadeep98b@gmail.com', 'Samyadeep Bhowmick');
-$mail->addAddress('samyadeep98b@gmail.com', 'My Friend');
+$mail->addAddress($email1, 'My Friend');
 
 $mail->isHTML(true);
 $mail->Subject  = 'First PHPMailer Message';
